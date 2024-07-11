@@ -1,0 +1,27 @@
+.cabinet {
+    height: 100%;
+}
+.cabinet_container {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    gap: 2%;
+    padding: 10px;
+}
+.cabinet_nav {
+    display:  flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+.cabinet_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 100%;
+}
+.cabinet_info i {
+    color: red;
+}
