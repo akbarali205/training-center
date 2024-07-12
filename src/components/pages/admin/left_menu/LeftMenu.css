@@ -1,8 +1,10 @@
 .admin_left_side_bar {
-    width: 300px;
-    -webkit-box-shadow: 7px 2px 13px 2px rgba(0,0,0,0.59);
+    /* width: 300px; */
+    width: 25%;
+    border-right: 1px solid rgba(195, 195, 195, 0.63);
+    /* -webkit-box-shadow: 7px 2px 13px 2px rgba(0,0,0,0.59);
     -moz-box-shadow: 7px 2px 13px 2px rgba(0,0,0,0.59);
-    box-shadow: 7px 2px 13px 2px rgba(0,0,0,0.59);
+    box-shadow: 7px 2px 13px 2px rgba(0,0,0,0.59); */
     z-index: 1;
 }
 .admin_left_user {
@@ -16,15 +18,12 @@
 .admin_avatar {
     font-size: 30px;
 }
-.admin_left_side_bar i {
-    color: gray;
-    font-size: 14px;
-    padding-left: 20px;
-}
+
 .left_side_pages_bar {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-top: 10px;
     list-style-type: none;
 }
 .left_side_pages_bar li {
@@ -36,17 +35,19 @@
     padding: 10px 10px 10px 20px;
     width: 85%;
     border-radius: 0 20px 20px 0;
-    background-color: red;
+    /* background-color: red; */
     text-decoration: none;
-    background-color: #292d32;
+    /* background-color: #292d32; */
     color: #fff;
+    font-size: 18px;
 }
 .left_side_pages_bar a.active  {
-    box-shadow: inset 0px 3px 9px 0px #000,inset -4px -5px 8px -3px #fff;
-    color: #0097a7;
+    /* box-shadow: inset 0px 3px 9px 0px #000,inset -4px -5px 8px -3px #fff; */
+    color: #fff;
+    background-color: #0050ff;
 }
 .left_side_pages_bar a:hover {
     transition: 0.4s;
     color: #fff;
-    background-color: #0097a7;
+    background-color: #0050ff;
 }

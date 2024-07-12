@@ -1,5 +1,6 @@
 .admin_main {
-    background-color: rgba(41, 45, 50, 255);
+    /* background-color: rgba(41, 45, 50, 255); */
+    background-color: #252525;
     display: flex;
     height: 100vh;
     color: #fff;
@@ -9,9 +10,10 @@
     width: 100%;
     /* background: rgb(0,15,33);
     background: radial-gradient(circle, rgba(0,15,33,1) 36%, rgba(41,45,50,1) 100%); */
-    background: #141E30;
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    background: linear-gradient(to right, #243B55, #141E30);
+    /* background: #141E30; */
+    background-color: #161616;
+    /* background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30); */
     overflow: auto;
 }
 
@@ -22,9 +24,10 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ E
 /* CSS */
 .button-27 {
     appearance: none;
-    background-color: #000000;
-    border: 2px solid #1A1A1A;
-    border-radius: 15px;
+    background-color: #161616;
+    /* border: 2px solid #1A1A1A; */
+    border: none;
+    border-radius: 10px;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
@@ -36,7 +39,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ E
     outline: none;
     padding: 10px 24px;
     text-align: center;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -44,8 +47,11 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ E
 }
 
 .button-27:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    /* transform: translateY(-2px); */
+    background-color: white;
+    color: #161616;
+    border: none;
 }
 
 .button-27:active {
@@ -60,9 +66,11 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ E
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background: rgb(28, 28, 28);
-    background: radial-gradient(circle, rgba(28, 28, 28, 1) 31%, rgba(70, 70, 70, 1) 92%);
-    height: 12vh;
+    /* background: rgb(28, 28, 28); */
+    background-color: #252525;
+    /* background: radial-gradient(circle, rgba(28, 28, 28, 1) 31%, rgba(70, 70, 70, 1) 92%); */
+    /* height: 12vh; */
+    padding: 10px;
 }
 
 .admin_right_nav p {

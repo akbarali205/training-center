@@ -15,7 +15,6 @@ function LeftMenu() {
           <h3>Akbarali Sobirov</h3>
         </div>
         <ul className='left_side_pages_bar'>
-            <i>Pages</i>
             <NavLink to='/admin/lids' >
               <li><FaUserEdit /> <span>Talabgorlar</span></li>
             </NavLink>
