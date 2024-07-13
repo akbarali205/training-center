@@ -11,11 +11,10 @@ function LeftMenu() {
   return (
     <div className='admin_left_side_bar'>
         <div className="admin_left_user">
-          <div className="admin_avatar"><FaRegUserCircle /></div>
+          <div className="admin_avatar"><FaRegUserCircle /></div> 
           <h3>Akbarali Sobirov</h3>
         </div>
         <ul className='left_side_pages_bar'>
-            <i>Pages</i>
             <NavLink to='/admin/lids' >
               <li><FaUserEdit /> <span>Talabgorlar</span></li>
             </NavLink>
